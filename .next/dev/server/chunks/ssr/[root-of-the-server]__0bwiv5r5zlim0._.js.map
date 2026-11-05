@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Praticas-WebII/src/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Praticas-WebII/src/app/sobre/page.tsx"],"sourcesContent":["import { Metadata } from \"next\"\n\nexport const metadata: Metadata = {\n  title: \"SOBRE\",\n};\n\nexport default function Contato() {\n    return(\n        <main className=\"flex min-h-screen flex-col items-center justify-center p-6\">\n            <h1 className=\"text-4xl font-extrabold tracking-tight sm:text-5xl\">\n                Sobre Nós\n            </h1>\n        </main>\n    )\n}"],"names":["metadata","title","Contato","className"],"mappings":";;;;;;;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;AACT;AAEe,SAASC;IACpB,qBACI,8OAAC;QAAKC,WAAU;kBACZ,cAAA,8OAAC;YAAGA,WAAU;sBAAqD;;;;;;;;;;;AAK/E"}}]
+}

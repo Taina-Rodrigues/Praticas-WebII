@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import MyButton from "@/components/button"
 
@@ -14,7 +15,7 @@ export default function Home(){
       </p>
 
       <MyButton />
-
+<Button className="bg-yellow-400"> MEU BOTÃO </Button>
     </main>
   )
 }

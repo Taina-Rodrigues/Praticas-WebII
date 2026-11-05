@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Praticas-WebII/src/app/not-found.tsx"],"sourcesContent":["import Link from \"next/link\"\n\nexport default function NotFound(){\n    return(\n        <main>\n            <h1 className=\"bg-red-500 text-center\">404</h1>\n            <h2 className=\"text-center\">PÁGINA NÃO ENCONTRADA</h2>\n\n           <Link href=\"/\" className=\"bg-yellow-400\">VOLTAR</Link> \n        </main>\n    )\n}"],"names":["NotFound","className","href"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACpB,qBACI,8OAAC;;0BACG,8OAAC;gBAAGC,WAAU;0BAAyB;;;;;;0BACvC,8OAAC;gBAAGA,WAAU;0BAAc;;;;;;0BAE7B,8OAAC,0LAAI;gBAACC,MAAK;gBAAID,WAAU;0BAAgB;;;;;;;;;;;;AAGpD"}}]
+}

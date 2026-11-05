@@ -1,3 +1,4 @@
+import ContactForm from "@/components/contact/contact-form";
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -13,6 +14,8 @@ export default function Contato() {
             <p className="mt-3 text-lg text-zinc-400">
                 Entre em contato conosco
             </p>
+            <ContactForm />
+
         </main>
     )
 }

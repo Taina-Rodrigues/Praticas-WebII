@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Praticas-WebII/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/Praticas-WebII/src/components/button/index.tsx"],"sourcesContent":["\"use client\"\n\nexport default function MyButton(){\n    return(\n        <main>\n            <button className=\"font-bold bg-yellow-500 text-black mt-3 cursor-pointer\" onClick={()=>{\n                alert(\"VOCÊ GANHOU UM PIX PREMIADO\")\n            }}>\n                CLIQUE AQUI\n            </button>\n        </main>\n    )\n}"],"names":["MyButton","className","onClick","alert"],"mappings":";;;;;AAAA;;AAEe,SAASA;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;YAAOC,WAAU;YAAyDC,SAAS;gBAChFC,MAAM;YACV;sBAAG;;;;;;;;;;;AAKf"}}]
+}
